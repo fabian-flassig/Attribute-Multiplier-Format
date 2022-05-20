@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://xmlns.pytha.com/plugin_config/1.0">
+  <header>
+    <guid>ca853c36-cf7d-44f9-9e14-90176b06bed6</guid>
+    <version>1.1</version>
+    <pytha-version>25.0</pytha-version>
+    <name>Attribute Sample "Formatted Multiplier"</name>
+    <description>A sample that formats the attribute "Multiplier" to have at least 2 digits.</description>
+    <licensing>Copyright (c) 2022 PYTHA Lab GmbH. This plugin is distributed under the terms of the MIT license.</licensing>
+  </header>
+  
+  <extension type="attribute">
+	<id>Multiplier_2digits</id>
+    <caption>Multiplier with 2 digits</caption>
+	<entry-point>evaluate_multiplier</entry-point>
+  </extension>
+ 
+</plugin>
